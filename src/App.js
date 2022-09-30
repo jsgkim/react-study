@@ -1,12 +1,11 @@
 import "./App.css";
 import Say from "./Say";
-import Counter2 from "./Counter2";
+import EventPractice from "./EventPractice";
 
 const App = () => {
   return (
     <>
-      <Counter2></Counter2>
-      <br />
+      <EventPractice></EventPractice>
       <Say></Say>
     </>
   );
