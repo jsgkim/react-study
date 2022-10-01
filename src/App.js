@@ -1,11 +1,10 @@
 import "./App.css";
-import Say from "./Say";
-import EventPractice from "./EventPractice";
+import ValidationSample from "./ValidationSample";
 
 const App = () => {
   return (
     <>
-      <EventPractice></EventPractice>
+      <ValidationSample></ValidationSample>
     </>
   );
 };
