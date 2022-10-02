@@ -1,12 +1,8 @@
 import "./App.css";
-import ValidationSample from "./ValidationSample";
+import IterationSample from "./IterationSample";
 
 const App = () => {
-  return (
-    <>
-      <ValidationSample></ValidationSample>
-    </>
-  );
+  return <IterationSample></IterationSample>;
 };
 
 export default App;
