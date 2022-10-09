@@ -4,11 +4,14 @@ const Info = () => {
   const [name, setName] = useState("");
   const [nickname, setNickname] = useState("");
   useEffect(()=>{
-    console.log(name)
+    console.log('effect');
+    return ()=> {
+      console.log('unmount');
+    }
     // console.log(
     //   {name, nickname}
     // )
-  }, [name])
+  }, [])
 
   const onChangeName = (e) => {
     setName(e.target.value);
