@@ -1,11 +1,11 @@
 import './App.css';
 import {Component} from 'react';
-import CSSModule from './CSSModule';
+import StyledComponent from './styledComponents';
 
 function App() {
   return (
     <div>
-      <CSSModule />
+      <StyledComponent />
     </div>
   );
 }
