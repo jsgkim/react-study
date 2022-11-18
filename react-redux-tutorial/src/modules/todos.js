@@ -12,7 +12,7 @@ let id = 3;
 
 export const insert = (text) => ({
   type: INSERT,
-  todos: {
+  todo: {
     id: id++,
     text,
     done: false,
@@ -60,7 +60,7 @@ function todos(state = initialState, action) {
     case TOGGLE:
       return {
         ...state,
-        todds: state.todos.map((todo) =>
+        todos: state.todos.map((todo) =>
           todo.id === action.id ? { ...todo, done: !todo.done } : todo,
         ),
       };
